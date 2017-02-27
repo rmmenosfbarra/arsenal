@@ -1,4 +1,7 @@
-
+# Name: gdb
+# Url: https://www.sourceware.org/gdb/
+# Usefull resources
+#   - xxxxxx
 
 # Look at the assembly code of the main function
 (gdb) disassemble main
