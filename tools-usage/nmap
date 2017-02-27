@@ -1,0 +1,7 @@
+# Name: nmap
+# Url: https://nmap.org/
+# Usefull resources
+#   - xxxxxx
+
+# Scan all ports
+nmap -p-
