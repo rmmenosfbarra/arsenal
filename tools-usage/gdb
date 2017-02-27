@@ -1,0 +1,25 @@
+
+
+# Look at the assembly code of the main function
+(gdb) disassemble main
+
+# Set a breakpoint at address 0x12345678
+(gdb) break *0x12345678
+
+# Examine/print the content of address 0x12345678
+(gdb) x 0x12345678
+
+# Print the content of address 0x12345678 as hex word
+(gdb) x/xw 0x12345678
+
+# Print the content of address 0x12345678 as a string
+(gdb) x/s 0x12345678
+
+# Run/restart the program you are debugging
+(gdb) run
+
+# Continue execution after you stopped at a breakpoint
+(gdb) continue
+
+# Exit gdb
+(gdb) quit
