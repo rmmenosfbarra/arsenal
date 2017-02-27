@@ -1,5 +1,11 @@
 
 
 ########################### PORTS SCANNER ###########################
+nmap ; Multiplatform ; port scanner
 
-nmap
+########################### CODE DEPURATORS ###########################
+gdb ; Multiplatform ; c code depurator
+
+########################### FILE INFORMATION GATHERING ###########################
+file ; Linux ;
+strings ; Linux ;
