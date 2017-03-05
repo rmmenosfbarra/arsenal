@@ -5,3 +5,6 @@
 
 # Scan all ports
 nmap -p-
+
+# Banner grabbing
+nmap --script banner
