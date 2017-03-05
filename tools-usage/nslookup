@@ -1,0 +1,8 @@
+# TXT record query
+nslookup -q=TXT <DNS_server>
+
+# DNS zone transfer
+nslookup
+> server <DNS_server>
+> set type=any
+> ls -d <domain>
