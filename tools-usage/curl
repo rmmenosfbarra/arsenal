@@ -1,3 +1,8 @@
+# Name: curl
+# Url: https://curl.haxx.se/
+# Type: transferring data with URLs
+# Usefull resources
+#   - xxxxxx
 
 # HTTP PUT upload file to url
 curl -T <file> <url>
