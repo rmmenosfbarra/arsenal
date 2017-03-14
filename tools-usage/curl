@@ -1,0 +1,3 @@
+
+# HTTP PUT upload file to url
+curl -T <file> <url>
