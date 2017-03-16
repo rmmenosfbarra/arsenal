@@ -1,0 +1,4 @@
+
+
+# Connect to database
+mysql -u <username> -h <ip> -P <port> -p 
