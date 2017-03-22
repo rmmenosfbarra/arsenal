@@ -13,3 +13,10 @@ export PATH=.:$PATH
 
 # Port knocking
 nmap -nmap -PN --host_timeout 201 --max-retries 0 -p <port> <host>
+
+# Connection persistence based on SSH keys
+# Generate RSA key pair
+host> ssh-keygen -t rsa
+target> echo "<id_rsa.pub>" >> ~/.ssh/authorized_keys
+host> ssh -i ~/.ssh/rsakey <user>@<target>
+
