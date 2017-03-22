@@ -12,11 +12,16 @@ chmod 777 <command>
 export PATH=.:$PATH
 
 # Port knocking
-nmap -nmap -PN --host_timeout 201 --max-retries 0 -p <port> <host>
+nmap -PN --host_timeout 201 --max-retries 0 -p <port> <host>
 
 # Connection persistence based on SSH keys
 # Generate RSA key pair
 host> ssh-keygen -t rsa
+# Put public key into target authorized_keys file
 target> echo "<id_rsa.pub>" >> ~/.ssh/authorized_keys
+# Connect using private key
 host> ssh -i ~/.ssh/rsakey <user>@<target>
+
+# Retrieve public RSA key from private one
+ssh-keygen -y -f <rsakey_file>
 
