@@ -1,0 +1,20 @@
+Filter out: -v  		
+  grep -v kali
+
+Print only the match (the trick with this is using regex): -o		
+  grep ‐o 'http://[^"]*'  (you can also use double quotes: " to delimit the expression)
+
+Ignore Regex: -F
+  grep -F .sh
+
+Cat the whole file highlighting the matches:
+  grep --color -E 'pattern|$' file
+
+  #Similar results with:
+    less -p pattern file
+
+Does it have any of the lines present in "filter.txt?":
+  grep -f filter.txt
+
+Filter out blank lines:
+  grep -v '^$' input.txt > output.txt
