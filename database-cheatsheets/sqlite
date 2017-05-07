@@ -1,0 +1,13 @@
+
+Conseguir tablas:
+	SELECT name FROM sqlite_master WHERE type='table' 
+	
+Conseguir columnas de una tabla:		
+	SELECT sql FROM sqlite_master WHERE type='table' 
+		
+	
+Conseguir una fila concreta de una consulta:
+	a) Añadir condicíon al WHERE: "AND ROWID=8"
+      SELECT sql FROM sqlite_master WHERE type='table' AND ROWID=4
+	b) Añadir "OFFSET <numero>" al final
+      SELECT sql FROM sqlite_master WHERE type='table' OFFSET 4
