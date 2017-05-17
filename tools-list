@@ -1,4 +1,6 @@
-
+########################### DICT GENERATORS #####################
+html2dic;Linux;create a dictionary from a local html file
+cewl;Linux;create a dictionary from a URL
 
 ########################### PORTS SCANNER ###########################
 nmap;Multiplatform;port scanner
