@@ -1,0 +1,8 @@
+Crack Wi-Fi WPA password:
+
+Requirements:
+- Must have a capture containing the EAPOL 4 way handshake
+- A wordlist to crack it
+
+aircrack-ng -w <wordlist> <capture file>
+aircrack-ng -w /usr/share/wordlists/rockyou.txt  Wifi_rogue_AP.cap 
