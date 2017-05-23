@@ -1,0 +1,14 @@
+* Decrypt TLS traffic capture:
+		
+	ssldump -r <File_Name>.pcap -k <SSL private key>.key -d host <IP_Address>
+	ssldump -r Wifi_rogue_AP-dec.cap -k ../webserverkey.txt -Adnq
+	
+	-A : Show all application info
+	-d : show
+	-n : Do not resolve names
+	-q : Do not show TLS parameters negotiation (gives you a less-bloated output)
+
+
+Reference: https://support.f5.com/csp/article/K10209
+
+I couldn´t get it to work properly for the hackazon CTF, but it is worth testing it again the next time
