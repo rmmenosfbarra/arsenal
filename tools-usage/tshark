@@ -2,9 +2,7 @@
 # Wireshark-based tool very similar to tcpdump (console)
 #
 
-Decode traffic 802.11 traffic:
-
-// It seems to work when displaying it to stdout. But it 
+Decode traffic 802.11 traffic (better alternative: use airdecap-ng):
 
 Notes:
 1.) You can use either the PWD or the PSK form to provide the 802.11 key.
