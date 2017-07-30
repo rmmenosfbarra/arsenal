@@ -1,0 +1,14 @@
+# 
+host -t ns <>
+
+# 
+host -t mx <>
+
+# Discover Server
+host <>.<>
+
+# Forward Lookup Brute Force
+for ip in $(cat <>);do host $ip.<>;done
+
+# Reverse Lookup Brute Force
+for ip in $(seq 155 190);do host 10.0.0.$ip;done |grep -v "not found"
