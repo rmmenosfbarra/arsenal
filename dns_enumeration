@@ -13,7 +13,7 @@ for ip in $(cat <name servers file>);do host $ip.<domain>;done
 # Reverse Lookup Brute Force
 for ip in $(seq <ip start> <ip fin>);do host <rest of ip>.$ip;done | grep -v "not found"
 
-# DNS Zone Transfer
+# DNS Zone Transfer (host)
 host -l <domain name> <dns server address>
 
 # DNS Servers Enumeration
@@ -21,3 +21,9 @@ host -t ns <domain name> | cut -d " " -f 4
 
 # DNS Zone Transfer Automation
 for server in $(host -t ns <domain name> | cut -d" " -f4);do host -l <domain name> $server | grep "has address";done
+
+# DNS Zone Transfer (dnsrecon)
+dnsrecon -d <domain name> -t axfr
+
+# DNS Zone Transfer (dnsenum)
+dnsenum <domain name>
