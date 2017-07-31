@@ -1,0 +1,8 @@
+# SMB Enumertion
+nmap -p 139,445 <ip>
+
+# Identify NetBIOS (nbtscan)
+nbtscan -r <ip>/<mask>
+
+# SMB Enumeration (enum4linux)
+enum4linux -a <ip>
