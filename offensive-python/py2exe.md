@@ -1,4 +1,4 @@
-#Overview
+# Overview
 Library to compile Python scripts as standalone Windows executables. You can even choose to bundle all necessary DLL´s in a single .exe. 
 Note that this files tend to be heavy even for the tiniest script.
 
