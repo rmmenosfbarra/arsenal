@@ -7,3 +7,4 @@ If you want to simply mention a library you used, add it to the list with a shor
 # Libraries
 * pwntools https://docs.pwntools.com/en/stable/: Quite CTF oriented
 * Twisted (https://github.com/twisted/twisted): [UNTESTED]. Mostly network protocols´ clients and servers. E.g., you can easily set up a DNS poisoner with it. See here https://gist.github.com/anonymous/ea292c8dc60a2d8fba50 (comes from this challenge: https://github.com/ctfs/write-ups-2014/tree/master/plaid-ctf-2014/whatscat)
+* py2exe (http://www.py2exe.org) : Library to compile Python scripts as standalone Windows executable
