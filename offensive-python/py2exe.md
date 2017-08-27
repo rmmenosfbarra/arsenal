@@ -49,8 +49,8 @@ setup(
 >
 >Valid values for bundle_files are:
 >
->    3 (default) don't bundle
->    2 bundle everything but the Python interpreter
->    1 bundle everything, including the Python interpreter
+>*3 (default) don't bundle
+>*2 bundle everything but the Python interpreter
+>*1 bundle everything, including the Python interpreter
 >
 >If zipfile is set to None, the files will be bundle within the executable instead of library.zip.
