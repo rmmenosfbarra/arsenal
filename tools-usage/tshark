@@ -14,3 +14,9 @@ tshark -r Wifi_rogue_AP.pcap -o wlan.enable_decryption:TRUE -o "uat:80211_keys:\
 tshark -r Wifi_rogue_AP.pcap -o wlan.enable_decryption:TRUE -o "uat:80211_keys:\"wpa-pwd\",\"princess:FirstTargetBank \"" -w output.pcap
 
 
+###Filter pcap based on wireshark-like filters:
+Read original capture "original.pcap" and save only packets coming from/going to IP 192.168.100.2 to "local_traffic.pcap
+`tshark -r original.pcap -Y "ip.addr eq 192.168.100.2" -w local_traffic.pcap`
+
+Leave only outbound traffic (assuming your IP is 192.168.10.10):
+`tshark -r original.pcap -Y "ip.src eq 192.168.10.10" -w local_traffic.pcap`
