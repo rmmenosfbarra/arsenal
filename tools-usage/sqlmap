@@ -17,6 +17,9 @@ sqlmap -u "<url>" --forms --dbs
 # Scan for SQLi optimized
 sqlmap -u "<url>" --forms --dbs -o
 
+# Scan for SQLi optimized with proxy and random agent
+sqlmap -u "<url>" --forms --dbs -o --proxy "<urlproxy>" --random-agent
+
 # Scan for SQLi optimized for 
 sqlmap -u "<url>" --forms --dbs -o --level 5 --risk 3
 
