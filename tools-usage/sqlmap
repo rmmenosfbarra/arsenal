@@ -34,3 +34,8 @@ sqlmap -u "<url>" --forms --dbms <databasetype> -D <schema> -T <table> --columns
 
 # Dump data for a specific schema, table, columns
 sqlmap -u "<url>" --forms --dbms <databasetype> -D <schema> -T <table> -C <columns1,column2,column3> --dump
+
+# SQLi in POST parameters
+Save the POST query as plaintext (i.e. from Burp) previously
+sqlmap -r POSTquery.txt -p <paramToInject>
+
