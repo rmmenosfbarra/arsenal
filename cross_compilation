@@ -1,0 +1,3 @@
+Cross Compilation From Linux to Windows
+i686-w64-mingw32-gcc 
+x86_64-w64-mingw32-gcc

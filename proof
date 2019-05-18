@@ -1,0 +1,2 @@
+hostname; id; cat /root/proof.txt; /sbin/ifconfig
+hostname && whoami.exe && type proof.txt && ipconfig /all

